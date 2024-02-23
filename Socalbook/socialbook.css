@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    
+}
+.nav-main{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #0966f1d0;
+    color: white;
+    padding: 0px 100px;
+}
+.nav-1{
+    display: flex;
+}
+.nav-nft ul li{
+    display: inline;
+    display: none;
+}
+
+.nav-logo{
+   
+}
+.logo{
+    width: 100%;
+    height: 50px;
+}
+#search{
+    width: 330px;
+    height: 35px;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: none;
+}
+.home-page{
+    width: 90%;
+    height: 700px;
+    margin: 10px auto;
+    display: flex;
+    gap: 20px;
+}
+.section-1{
+    width: 25%;
+    height: 100%;
+}
+.section-2{
+    width: 50%;
+    height: 100%;
+}
+.section-3{
+    width: 25%;
+    height: 100%;
+}
+.menu-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.menu-1 h3{
+    color: gray;
+}
+.menu-1 h4{
+    color: #0455cfd0;
+}
+.menu-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-block: 30px;
+}
+
+.event{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.event-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.event-date{
+    width: 100%;
+    padding-block: 10px;
+}
+.e-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.eb-1{
+    width: 20%;
+    height: 50px;
+}
+.story{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.st-1{
+    width: 18%;
+    height: 160px;
+    background-color: #5c8313d0;
+    border-radius: 10px;
+    background: url(images/status-1.png) no-repeat center/cover;
+}
+.st-2{
+    width: 18%;
+    height: 160px;
+    background-color: #5c8313d0;
+    border-radius: 10px;
+    background: url(images/status-2.png) no-repeat center/cover;
+}
+.st-3{
+    width: 18%;
+    height: 160px;
+    background-color: #5c8313d0;
+    border-radius: 10px;
+    background: url(images/status-3.png) no-repeat center/cover;
+}
+.st-4{
+    width: 18%;
+    height: 160px;
+    background-color: #5c8313d0;
+    border-radius: 10px;
+    background: url(images/status-4.png) no-repeat center/cover;
+}
+.st-5{
+    width: 18%;
+    height: 160px;
+    background-color: #5c8313d0;
+    border-radius: 10px;
+    background: url(images/status-5.png) no-repeat center/cover;
+}
+
+.post-1{
+    width: 100%;
+    /* height: 100px; */
+    background-color: white;
+    margin-block: 10px;
+  
+
+}
+.p-1{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+
+}
+.pro-1{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.input{
+    width: 80%;
+    margin: 0 auto;
+}
+#input-1{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 0px solid black;
+}
