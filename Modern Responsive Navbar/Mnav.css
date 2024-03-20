@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 651px;
+    background: url(walpy-EXja5-RBnc-Zg.jpg) no-repeat center/cover;
+
+}
+.nav{
+    width: 100%;
+    height: 55px;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.897);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 5px black;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav li{
+    height: 53px;
+}
+img{
+    /* border: 2px solid black; */
+    padding: 12px 5px;
+}
+.nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: #f0f0f0b2;
+}
+
+.nav ul li:first-child{
+   
+    margin-right: auto;
+}
+#logo{
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.sidebar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 650px;
+    width: 300px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 10px black;
+    
+    /* flex-direction: column;
+    align-items: flex-start !important; 
+    justify-content: flex-start !important; */
+    
+
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.nav .sidebar{
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+.head{
+    width: 29%;
+    height: 350px;
+    color: white;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+.head h1{
+    font-size: 65px;
+    padding-block: 17px;
+    
+}
+
+
+
+
+
+@media (max-width: 810px) {
+    .anchor{
+        display: none;
+    }
+
+}
