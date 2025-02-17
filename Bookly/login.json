@@ -1,0 +1,28 @@
+{
+  "loginAccount": [
+    {
+      "id": "0a9f",
+      "name": "NiravSir",
+      "email": "Niravsir@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "fc24",
+      "name": "arvind",
+      "email": "arvind@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "fc24",
+      "name": "Arvind",
+      "email": "arvind@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "980e",
+      "name": "Arvind",
+      "email": "arvin@gmail.com",
+      "password": "arvin"
+    }
+  ]
+}

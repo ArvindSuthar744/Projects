@@ -492,13 +492,14 @@
     }
 }
 @media (max-width: 992px) {
-    .section-3{
+    .section-1,.section-3{
         display: none;
     }
     .section-2{
-        width: 65%;
+        width: 85%;
     }
     .home-page{
+        justify-content: center;
         gap: 40px;
     }
     .nav-1 {
@@ -522,7 +523,7 @@
         width: 9%;
     }
     .story div[class*='st'] {
-        height: 135px;
+        height: 190px;
     }
     .story * p {
         left: 20%;
@@ -654,7 +655,7 @@
     .pro-1{
         width: 10%;
     }
-    /* .st-5{
+    .st-5{
         display: none;
-    } */
+    }
 }  

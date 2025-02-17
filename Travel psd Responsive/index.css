@@ -309,7 +309,6 @@
 }
 .c-text{
     text-align: center;
-    padding-bottom: 35px;
 }
 .c-text h1{
     padding-block: 10px;
@@ -317,7 +316,6 @@
 .feedback{
     width: 100%;
     padding-block: 100px;
-    margin-top: 60px;
 }
 .feedback-1{
     width: 80%;
@@ -445,8 +443,8 @@ nav>i{
      .nav-list{
         background-color: #c5c5c5;
         color: black;
-        width: 200px;
-        height: 110px;
+        width: 210px;
+        height: 200px;
         position: absolute;
         top: 100px;
         left: 0px;
@@ -459,6 +457,7 @@ nav>i{
         color: black;
      }
      .nav-list li{
+        display: flex;
         padding: 10px 0px;
      }
     .nav i{
@@ -472,7 +471,7 @@ nav>i{
         gap: 30px;
     }
     .home-img , .home-text {
-        width: 75%;
+        width: 82%;
     }
     .img-contain{
         flex-direction: column;
@@ -493,6 +492,7 @@ nav>i{
     }
     .choose-2{
         flex-direction: column-reverse;
+        gap: 25px;
     }
     .choose-img{
         width: 80%;
@@ -510,30 +510,43 @@ nav>i{
     }
     .lorem-text{
         width: 80%;
+        gap: 60px;
     }
     .lorem-headline{
         width: 100%;
     }
-    
+    .ch-text-1 h1{
+        width: 100%;
+    }
+    .lorem-img1{
+        height: 100%;
+    }
+    .contain-2{
+        width: 85%;
+    }
 }
 @media (max-width: 768px){
     .home-text{
-        text-align: center;
+        width: 100%;
+        padding: 0px 42px;
+    }
+    .home-img{
+        width: 100%;
     }
     .carts{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 50px;
-      } 
-      .carts h1{
+    } 
+    .carts h1{
         padding-block: 10px;
-      }
-      .cart1 ,.cart2 ,.cart3{
+    }
+    .cart1 ,.cart2 ,.cart3{
         width: 80%;
         text-align: center;
-      }
-      .contain-1{
+    }
+    .contain-1{
         width: 90%;
         font-size: 28px;
     }
@@ -542,7 +555,7 @@ nav>i{
         gap: 25px;
     }
     .cont-1 , .cont-2 , .cont-3{
-        width: 80%;
+        width: 55%;
     }
     .c-text p{
         padding: 0px 10px;
@@ -589,21 +602,26 @@ nav>i{
     }
     }
     .headline h1{
-       font-size: 45px;
+       font-size: 35px;
     }
     .headline p{
        width: 60%;
        margin: 0 auto;
     }
     .img-contain{
+        width: 100%;
        display: flex;
        flex-direction: column;
        align-items: center;
        justify-content: center;
        gap: 30px;
     }
+    .cart-imgs{
+        height: auto;
+    }
     .images-1 , .images-2{
        width: 100%;
+       height: auto;
     }
     .img-5-text{
         display: flex;
@@ -615,7 +633,7 @@ nav>i{
     }
     .text-1{
         width: 100%;
-        font-size: 25px;
+        font-size: 18px;
         padding-left: 20px;
     }
     .text-2{
@@ -626,7 +644,7 @@ nav>i{
         flex-direction: column-reverse;
     }
     .choose-img{
-        width: 80%;
+        width: 100%;
     }
     .ch-text{
         width: 80%;
@@ -634,7 +652,7 @@ nav>i{
     .ch-text-1 h1{
         padding-top: 25px;
         width: 90%;
-        font-size: 40px;
+        font-size: 36px;
         text-align: center;
     }
     .ch-text-2 , .ch-text-3{
@@ -670,6 +688,21 @@ nav>i{
         padding-right: 0px;
     }
     .lorem-headline{
+        width: 100%;
+    }
+    .cont-1 , .cont-2 , .cont-3{
+        width: 90%;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+    .cart1 ,.cart2 ,.cart3{
+        width: 100%;
+    }
+    .fd-input{
+        width: 80%;
+    }
+    .feedback-1{
         width: 100%;
     }
 }  
